@@ -1,8 +1,4 @@
-const assert = require("assert");
-
-function makeGreeting(name = "world") {
-    return "Hello " + name + "!";
-}
+import assert from "assert";
 
 assert.equal(makeGreeting(), "Hello world!");
 assert.equal(makeGreeting(), "Hello Ben!");
