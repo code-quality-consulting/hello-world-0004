@@ -1,4 +1,5 @@
 # Hello World Around the World
 
 * Greets user personally in specified language.
-* Greets user with "Hello World!"
+* Greets user with "Hello world!"
+* Greets user "¡Hola mundo!"
