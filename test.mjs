@@ -1,18 +1,20 @@
 import assert from "assert";
 import {makeGreeter} from "./index"
 
-const makeEnglishGreeting = makeGreeter("English");
-const makeSpanishGreeting = makeGreeter("Spanish");
-const makeRussianGreeting = makeGreeter("Russian");
+const greet = {
+    "english": makeGreeter("English"),
+    "spanish": makeGreeter("Spanish"),
+    "russian": makeGreeter("Russian")
+};
 
-assert.equal(makeEnglishGreeting(), "Hello world!");
-assert.equal(makeEnglishGreeting("Ben"), "Hello Ben!");
-assert.equal(makeSpanishGreeting(), "\u00A1Hola mundo!");
+assert.equal(greet.english(), "Hello world!");
+assert.equal(greet.english("Ben"), "Hello Ben!");
+assert.equal(greet.spanish(), "\u00A1Hola mundo!");
 assert.equal(
-    makeSpanishGreeting("Edgar", "Spanish"), 
+    greet.spanish("Edgar", "Spanish"), 
     "\u00A1Hola Edgar!"
 );
-assert.equal(makeRussianGreeting(), "Привет мир!");
+assert.equal(greet.russian(), "Привет мир!");
 console.log("success!");
 
 /*
