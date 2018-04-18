@@ -10,3 +10,4 @@
 * Greets user in French with "Bonjour tous le monde!"
 * Greets user in Korean with "여보세요 세계!"
 * Greets user in Chinese with "你好 世界"
+* Greets user in Japanese with "こんにちは 世界"
