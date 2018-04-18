@@ -5,7 +5,8 @@ const greeting = {
     "Greek": "γειά σου",
     "Dutch": "Hallo",
     "German": "Hallo",
-    "French": "Bonjour"
+    "French": "Bonjour",
+    "Korean": "여보세요"
 }
 
 const world = {
@@ -15,7 +16,8 @@ const world = {
     "Greek": "κόσμος",
     "Dutch": "wereld",
     "German": "Welt",
-    "French": "tous le monde"
+    "French": "tous le monde",
+    "Korean": "세계"
 }
 
 export function makeGreeter(language) {
