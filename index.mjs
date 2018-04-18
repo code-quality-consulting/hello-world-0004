@@ -7,7 +7,8 @@ const greeting = {
     "German": "Hallo",
     "French": "Bonjour",
     "Korean": "여보세요",
-    "Chinese": "你好"
+    "Chinese": "你好",
+    "Japanese": "こんにちは"
 }
 
 const world = {
@@ -19,7 +20,8 @@ const world = {
     "German": "Welt",
     "French": "tous le monde",
     "Korean": "세계",
-    "Chinese": "世界"
+    "Chinese": "世界",
+    "Japanese": "世界"
 }
 
 export function makeGreeter(language) {

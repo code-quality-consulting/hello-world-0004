@@ -10,7 +10,7 @@ const greet = {
     "german": makeGreeter("German"),
     "french": makeGreeter("French"),
     "korean": makeGreeter("Korean"),
-    "japanese": makeGreeter("Japanese")
+    "japanese": makeGreeter("Japanese"),
     "chinese": makeGreeter("Chinese")
 };
 
