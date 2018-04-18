@@ -8,3 +8,4 @@
 * Greets user with "Hallo wereld!"
 * Greets user with "Hallo Welt!"
 * Greets user with "Bonjour tous le monde!"
+* Greets user with "여보세요 세계"
