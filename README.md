@@ -7,3 +7,4 @@
 * Greets user with "γειά σου κόσμος!"
 * Greets user with "Hallo wereld!"
 * Greets user with "Hallo Welt!"
+* Greets user with "Bonjour tous le monde!"
