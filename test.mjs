@@ -16,7 +16,7 @@ assert.equal(
     "\u00A1Hola Edgar!"
 );
 assert.equal(greet.russian(), "Привет мир!");
-assert.equal(greet.greek(), "γειά σου κόσμος");
+assert.equal(greet.greek(), "γειά σου κόσμος!");
 console.log("success!");
 
 /*
