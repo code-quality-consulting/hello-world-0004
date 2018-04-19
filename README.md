@@ -12,3 +12,4 @@
 * Greets user in Chinese with "你好 世界"
 * Greets user in Japanese with "こんにちは 世界"
 * Greets user in Hebrew with "םלוע םולש"
+* Greets user in Arabic with "\u0645\u0631\u062D\u0628\u0627 \u0628\u0627\u0644\u0639\u0627\u0644\u0645"
